@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>LibrosJungla</name>
+<icon src="imagenes/JunglaLibro.png" gap:platform="android" gap:density="ldpi"/> <!--resolucion de la pantalla la parte de ldpi-->
+<gap:splash src="cargando.gif" gap:platform="android" gap:density="ldpi"/>
+<gap:splash src="cargando.gif" gap:platform="android" gap:density="mdpi"/>
+<gap:splash src="cargando.gif" gap:platform="android" gap:density="hdpi"/>
+<gap:splash src="cargando.gif" gap:platform="android" gap:density="xhdpi"/>
+
+<description>
+Un nuevo estilo una nueva forma de leer tus libros favoritos y todo al alcance de un click.
+</description>
+<preference name="permission" value="none"/>
+<author href="https://example.com" email="jegl-@hotmail.com.com">
+Joel Garcia &amp; Kelly Baque
+</author>
+<!--EXTENSIONES-->
+<plugin name="cordova-plugin-file-transfer" spec="~1.7.1" />
+</widget>
