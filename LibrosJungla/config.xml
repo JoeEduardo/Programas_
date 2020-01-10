@@ -5,7 +5,7 @@
     version   = "1.0.0">
 
 <name>LibrosJungla</name>
-<icon src="imagenes/JunglaLibro.png" gap:platform="android" gap:density="ldpi"/> <!--resolucion de la pantalla la parte de ldpi-->
+<icon src="imagenes/libro-abierto.png" gap:platform="android" gap:density="ldpi"/> <!--resolucion de la pantalla la parte de ldpi-->
 <gap:splash src="cargando.gif" gap:platform="android" gap:density="ldpi"/>
 <gap:splash src="cargando.gif" gap:platform="android" gap:density="mdpi"/>
 <gap:splash src="cargando.gif" gap:platform="android" gap:density="hdpi"/>
@@ -15,9 +15,9 @@
 Un nuevo estilo una nueva forma de leer tus libros favoritos y todo al alcance de un click.
 </description>
 <preference name="permission" value="none"/>
-<author href="https://example.com" email="jegl-@hotmail.com.com">
+<author href="https://example.com" email="garcialopezjoel2019@gmail.com.com">
 Joel Garcia &amp; Kelly Baque
 </author>
 <!--EXTENSIONES-->
-<plugin name="cordova-plugin-file-transfer" spec="~1.7.1" />
+
 </widget>
